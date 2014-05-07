@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63EE6DB2-D8D5-4393-93A8-43D76266DCF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SharedShadersTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B31D0B15-BA74-47DE-8EDE-38935C83A617</key>
+		<string>ssh://github.com/Gubarev/shared-shaders-test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SharedShadersTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B31D0B15-BA74-47DE-8EDE-38935C83A617</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Gubarev/shared-shaders-test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B31D0B15-BA74-47DE-8EDE-38935C83A617</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B31D0B15-BA74-47DE-8EDE-38935C83A617</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shared-shaders-test</string>
+		</dict>
+	</array>
+</dict>
+</plist>

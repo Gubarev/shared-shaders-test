@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF3DF46191A079B0096474C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF3DF45191A079B0096474C /* Foundation.framework */; };
+		DCF3DF48191A079B0096474C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF3DF47191A079B0096474C /* CoreGraphics.framework */; };
+		DCF3DF4A191A079B0096474C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF3DF49191A079B0096474C /* UIKit.framework */; };
+		DCF3DF50191A079B0096474C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCF3DF4E191A079B0096474C /* InfoPlist.strings */; };
+		DCF3DF52191A079B0096474C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF3DF51191A079B0096474C /* main.m */; };
+		DCF3DF56191A079B0096474C /* SSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF3DF55191A079B0096474C /* SSTAppDelegate.m */; };
+		DCF3DF59191A079B0096474C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF3DF57191A079B0096474C /* Main.storyboard */; };
+		DCF3DF5C191A079B0096474C /* SSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF3DF5B191A079B0096474C /* SSTViewController.m */; };
+		DCF3DF5E191A079B0096474C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF3DF5D191A079B0096474C /* Images.xcassets */; };
+		DCF3DF7E191A09620096474C /* SSTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF3DF7D191A09620096474C /* SSTCanvasView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCF3DF42191A079B0096474C /* SharedShadersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedShadersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF3DF45191A079B0096474C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCF3DF47191A079B0096474C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCF3DF49191A079B0096474C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCF3DF4D191A079B0096474C /* SharedShadersTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedShadersTest-Info.plist"; sourceTree = "<group>"; };
+		DCF3DF4F191A079B0096474C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCF3DF51191A079B0096474C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCF3DF53191A079B0096474C /* SharedShadersTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharedShadersTest-Prefix.pch"; sourceTree = "<group>"; };
+		DCF3DF54191A079B0096474C /* SSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTAppDelegate.h; sourceTree = "<group>"; };
+		DCF3DF55191A079B0096474C /* SSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTAppDelegate.m; sourceTree = "<group>"; };
+		DCF3DF58191A079B0096474C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF3DF5A191A079B0096474C /* SSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTViewController.h; sourceTree = "<group>"; };
+		DCF3DF5B191A079B0096474C /* SSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTViewController.m; sourceTree = "<group>"; };
+		DCF3DF5D191A079B0096474C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCF3DF64191A079B0096474C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCF3DF7C191A09620096474C /* SSTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTCanvasView.h; sourceTree = "<group>"; };
+		DCF3DF7D191A09620096474C /* SSTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTCanvasView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF3DF3F191A079B0096474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF3DF48191A079B0096474C /* CoreGraphics.framework in Frameworks */,
+				DCF3DF4A191A079B0096474C /* UIKit.framework in Frameworks */,
+				DCF3DF46191A079B0096474C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF3DF39191A079B0096474C = {
+			isa = PBXGroup;
+			children = (
+				DCF3DF4B191A079B0096474C /* SharedShadersTest */,
+				DCF3DF44191A079B0096474C /* Frameworks */,
+				DCF3DF43191A079B0096474C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF3DF43191A079B0096474C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3DF42191A079B0096474C /* SharedShadersTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF3DF44191A079B0096474C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3DF45191A079B0096474C /* Foundation.framework */,
+				DCF3DF47191A079B0096474C /* CoreGraphics.framework */,
+				DCF3DF49191A079B0096474C /* UIKit.framework */,
+				DCF3DF64191A079B0096474C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF3DF4B191A079B0096474C /* SharedShadersTest */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3DF54191A079B0096474C /* SSTAppDelegate.h */,
+				DCF3DF55191A079B0096474C /* SSTAppDelegate.m */,
+				DCF3DF57191A079B0096474C /* Main.storyboard */,
+				DCF3DF5A191A079B0096474C /* SSTViewController.h */,
+				DCF3DF5B191A079B0096474C /* SSTViewController.m */,
+				DCF3DF5D191A079B0096474C /* Images.xcassets */,
+				DCF3DF4C191A079B0096474C /* Supporting Files */,
+				DCF3DF7C191A09620096474C /* SSTCanvasView.h */,
+				DCF3DF7D191A09620096474C /* SSTCanvasView.m */,
+			);
+			path = SharedShadersTest;
+			sourceTree = "<group>";
+		};
+		DCF3DF4C191A079B0096474C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3DF4D191A079B0096474C /* SharedShadersTest-Info.plist */,
+				DCF3DF4E191A079B0096474C /* InfoPlist.strings */,
+				DCF3DF51191A079B0096474C /* main.m */,
+				DCF3DF53191A079B0096474C /* SharedShadersTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF3DF41191A079B0096474C /* SharedShadersTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF3DF74191A079B0096474C /* Build configuration list for PBXNativeTarget "SharedShadersTest" */;
+			buildPhases = (
+				DCF3DF3E191A079B0096474C /* Sources */,
+				DCF3DF3F191A079B0096474C /* Frameworks */,
+				DCF3DF40191A079B0096474C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedShadersTest;
+			productName = SharedShadersTest;
+			productReference = DCF3DF42191A079B0096474C /* SharedShadersTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF3DF3A191A079B0096474C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = developer;
+			};
+			buildConfigurationList = DCF3DF3D191A079B0096474C /* Build configuration list for PBXProject "SharedShadersTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF3DF39191A079B0096474C;
+			productRefGroup = DCF3DF43191A079B0096474C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF3DF41191A079B0096474C /* SharedShadersTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF3DF40191A079B0096474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF3DF5E191A079B0096474C /* Images.xcassets in Resources */,
+				DCF3DF50191A079B0096474C /* InfoPlist.strings in Resources */,
+				DCF3DF59191A079B0096474C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF3DF3E191A079B0096474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF3DF52191A079B0096474C /* main.m in Sources */,
+				DCF3DF56191A079B0096474C /* SSTAppDelegate.m in Sources */,
+				DCF3DF5C191A079B0096474C /* SSTViewController.m in Sources */,
+				DCF3DF7E191A09620096474C /* SSTCanvasView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCF3DF4E191A079B0096474C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF3DF4F191A079B0096474C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCF3DF57191A079B0096474C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF3DF58191A079B0096474C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF3DF72191A079B0096474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DCF3DF73191A079B0096474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF3DF75191A079B0096474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedShadersTest/SharedShadersTest-Prefix.pch";
+				INFOPLIST_FILE = "SharedShadersTest/SharedShadersTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCF3DF76191A079B0096474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedShadersTest/SharedShadersTest-Prefix.pch";
+				INFOPLIST_FILE = "SharedShadersTest/SharedShadersTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF3DF3D191A079B0096474C /* Build configuration list for PBXProject "SharedShadersTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF3DF72191A079B0096474C /* Debug */,
+				DCF3DF73191A079B0096474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF3DF74191A079B0096474C /* Build configuration list for PBXNativeTarget "SharedShadersTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF3DF75191A079B0096474C /* Debug */,
+				DCF3DF76191A079B0096474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF3DF3A191A079B0096474C /* Project object */;
+}
