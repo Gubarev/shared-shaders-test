@@ -152,7 +152,8 @@ const static GLchar simpleFShSrc[] =
     // Set viewport.
     glViewport(0, 0, _frameBufferSize.width, _frameBufferSize.height);
     
-    // Setup shaders.
+    // Setup pipeline and shaders.
+    glBindProgramPipelineEXT(_pipeline);
     glUseProgramStagesEXT(_pipeline, GL_VERTEX_SHADER_BIT_EXT,   _vertexShader);
     glUseProgramStagesEXT(_pipeline, GL_FRAGMENT_SHADER_BIT_EXT, _fragmentShader);
     
