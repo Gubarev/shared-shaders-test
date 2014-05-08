@@ -11,7 +11,7 @@
 
 
 
-#define SST_USE_ANOTHER_CONTEXT 0
+#define SST_USE_ANOTHER_CONTEXT 1
 
 
 
@@ -164,6 +164,7 @@ const static GLchar simpleFShSrc[] =
        -0.5, -0.5,
         0.5, -0.5
     };
+    glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, 0, 2 * sizeof(GLfloat), vertex);
     
     // Render.
